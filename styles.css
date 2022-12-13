@@ -1,0 +1,8 @@
+
+body {
+    position: absolute;
+}
+div#wrapper {
+    position :relative;
+    margin: 0 auto; 
+}

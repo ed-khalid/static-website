@@ -1,4 +1,7 @@
 
+window.addEventListener('load', draft)
+const button = document.getElementById('generate-button') 
+button.addEventListener('click', draft)
 
 const draft = () => {
 
@@ -16,7 +19,7 @@ const draft = () => {
     ]
     const ol = document.getElementById("list")  
     while (ol.firstChild) {
-        ol.removeChildre(ol.firstChild)
+        ol.removeChild(ol.firstChild)
     }
 
     while (names.length) {
