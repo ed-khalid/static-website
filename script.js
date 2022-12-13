@@ -1,8 +1,4 @@
 
-window.addEventListener('load', draft)
-const button = document.getElementById('generate-button') 
-button.addEventListener('click', draft)
-
 const draft = () => {
 
     const names = [
@@ -31,3 +27,7 @@ const draft = () => {
     }
 
 }
+
+window.addEventListener('load', draft)
+const button = document.getElementById('generate-button') 
+button.addEventListener('click', draft)
