@@ -28,6 +28,8 @@ const draft = () => {
 
 }
 
-window.addEventListener('load', draft)
-const button = document.getElementById('generate-button') 
-button.addEventListener('click', draft)
+window.addEventListener('load', () => {
+    const button = document.getElementById('generate-button') 
+    button.addEventListener('click', draft)
+    draft()
+})
