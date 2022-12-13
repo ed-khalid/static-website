@@ -19,7 +19,7 @@ const draft = () => {
     }
 
     while (names.length) {
-        const randomIndex = Math.floor(Math.random() *(names.length-1)) 
+        const randomIndex = Math.floor(Math.random() *(names.length)) 
         const li = document.createElement('li') 
         li.appendChild(document.createTextNode(names[randomIndex]))
         ol.appendChild(li)
